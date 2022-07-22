@@ -6,7 +6,7 @@
 	<listener class-name="utilities.Reporting"/>
   </listeners>
   
-   <test thread-count="5"  name="Login_Test" parallel="classes">
+   <test thread-count="2"  name="Login_Test" parallel="classes">
   
       <classes>
       <class name="testCases.TC_Login_001"/>
